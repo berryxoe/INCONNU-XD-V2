@@ -1,16 +1,15 @@
 
 {
-  
-  "name": "INCONNNU-XD-V2",
-  "description": "Best Whatsapp bot made by inconnu boy tech",
-  "logo":"https://files.catbox.moe/959dyk.jpg",
+  "name": "~⛃⃟✮𝄟⃝💀𒋲𝐒𝐓𝐈𝐋𝐄𝐒𒋲𝗩𝗢𝗜𝗗 —͟͟͞͞𖣘",
+  "description": "Best Whatsapp bot made by Dawens V7🎭",
+  "logo": "https://files.catbox.moe/959dyk.jpg",
   "keywords": [
     "whatsapp bot"
   ],
   "repository": "",
-  "stack":"heroku-24",
-  "env":{
-      "SESSION_ID": {
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
       "description": "Paste here session id that you have scanned",
       "required": true,
       "value": ""
@@ -54,10 +53,14 @@
       "description": "Enter it true if you want to reject call Or leave blank",
       "required": false,
       "value": ""
-   
-    }
     },
-    "buildpacks": [
+    "ANTI_DAVE_MASISI": {
+      "description": "Enable this to block or punish messages like 'Dave masisi'.",
+      "required": false,
+      "value": "true"
+    }
+  },
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
