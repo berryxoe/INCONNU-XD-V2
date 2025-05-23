@@ -1,66 +1,61 @@
 {
-    "bot-name": "INCONNU-XD",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By joeljamestech",
-    "logo": "https://files.catbox.moe/e1k73u.jpg",
-    "keywords": ["bot"],
-    "documentation-link": "https://inconnu-boy-tech-bot.onrender.com/pair",
-    "owner-verification": "xinconnuboydawens@gmail.com",
-  
-    "env": {
-      "SESSION_ID": {
-        "description": "Put your SESSION_ID here.get session id from here, https://inconnu-boy-tech-bot.onrender.com/pair",
-        "required": true,
-        "value":"add your session"
-      },
-      "PREFIX": {
-        "description": "Bot command prefix, (e.g, . , ! @ etc",
-        "required": true,
-        "value":"."
-      },
-    
+  "bot-name": "~⛃⃟✮𝄟⃝💀𒋲𝐒𝐓𝐈𝐋𝐄𝐒𒋲𝗩𝗢𝗜𝗗 —͟͟͞͞𖣘",
+  "description": "Whiskey Sockets Baileys Whatsapp bot By dawens",
+  "logo": "https://files.catbox.moe/e1k73u.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://inconnu-boy-tech-bot.onrender.com/pair",
+  "owner-verification": "xinconnuboydawens@gmail.com",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Get session id from here, https://inconnu-boy-tech-bot.onrender.com/pair",
+      "required": true,
+      "value": "add your session"
+    },
+    "PREFIX": {
+      "description": "Bot command prefix, (e.g., . , ! @ etc)",
+      "required": true,
+      "value": "."
+    },
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "Select your bot work type: public, private, inbox, group.",
       "required": false,
       "value": "public"
-      
     },
-    
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "INCONNU BOY"
-}, 
-
+      "value": "DAWENS V7"
+    },
     "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
+      "description": "Put the owner number for bot.",
       "required": false,
-      "value": "554488138425"
-
-    }, 
-
+      "value": "50942241547"
+    },
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
       "required": true,
       "value": "false"
-
-    }, 
-    "OWNER_REACT": {
-    "description": "Make it true if you want reactions on your number",
-    "required": true,
-    "value": "false"
     },
-    
+    "OWNER_REACT": {
+      "description": "Make it true if you want reactions on your number",
+      "required": true,
+      "value": "false"
+    },
     "ANTI_DELETE": {
-      "description": "MAKE IT TRUE IF YOU WANT TO RECOVER DELETED MSGS",
+      "description": "Make it true if you want to recover deleted msgs",
       "required": false,
       "value": "true"
-    }, 
-
+    },
     "DELETE_PATH": {
-      "description": "YOUR ACCORDING IF YOU WANT TO SEND DELETED MSG WHERE SAME OR PM.",
+      "description": "Your according if you want to send deleted msg where (same or pm).",
       "required": true,
       "value": "pm"
+    },
+    "ANTI_DAVE MASISI": {
+      "description": "Enable this to block or punish messages like 'Dave masisi'.",
+      "required": false,
+      "value": "true"
     }
   }
-    }
-      
+}
